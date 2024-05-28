@@ -1,4 +1,6 @@
-# This repository is for web scraping projects using Python.
+# Web Scraping in Python
+
+## This repository is for web scraping projects using Python.
 
 I first learned how to do this in an Intermediate Python course at the University of Alabama. 
 This course mainly used Jupyter Notebook, so those files in here were class projects. 
