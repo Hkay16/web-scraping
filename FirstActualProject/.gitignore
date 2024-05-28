@@ -1,0 +1,17 @@
+# Ignore Visual Studio files
+.vs/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore data files (optional, if you don't want to track them)
+data/*.csv
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
