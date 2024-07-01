@@ -2,6 +2,7 @@
 import os
 import sys
 import subprocess
+from security import safe_command
 
 def run_scraper():
     try:
@@ -9,7 +10,7 @@ def run_scraper():
         os.chdir(os.path.join(os.path.dirname(__file__), 'scripts'))
         
         # Run the scraper script
-        subprocess.run([sys.executable, 'scraper.py'], check=True)
+        safe_command.run(subprocess.run, [sys.executable, 'scraper.py'], check=True)
         
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while running the scraper: {e}")
